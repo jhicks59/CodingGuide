@@ -1,4 +1,4 @@
-# Types
+# Types - Diferent data forms used in swift
 
 ### Boolean Values - represent logic and can only be true or false
 let a = true
