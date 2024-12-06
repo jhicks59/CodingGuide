@@ -1,4 +1,4 @@
-# Conditionals - Statements in code that run based on set conditions
+# Conditionals - Statements in code that runs based on set conditions
 
 ### If Statements
 #### Runs a block of code within braces based on set condtions after 'if'
@@ -24,6 +24,19 @@ if myFavoriteMovieLengthInSeconds < 8820 {
         } else {
         print("What's this movie called?"
         }
+```
+
+### Nested If statements
+#### The use of an if statement inside of an if statement
+```swift
+let myFavoriteMovieLengthInSeconds = 8820
+
+if myFavoriteMovieLengthInSeconds >= 8500  {
+        if myFavoriteMovieLengthInSeconds == 8820 {
+                print("This may be my favoite movie")}
+} else {
+print("I hated that movie")
+}
 ```
 
 ### Switch Statements
