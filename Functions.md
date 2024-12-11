@@ -37,14 +37,24 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
         print (line)
     }
 ```
+#
+### Displays choices
+#### Similarly, this loop prints out each string in the choices array. These strings represent the available options for the user to choose from.
 ```Swift
     for line in (choices){
         print (line)
     
     }
 ```
-### Displays choices
-#### Similarly, this loop prints out each string in the choices array. These strings represent the available options for the user to choose from.
+#
+### User Input Loop
+#### The while !chosen loop ensures that the program keeps asking for input until the user selects a valid choice. readLine() is used to capture user input as a string.
+#### The variable chosen is initially set to false and will be set to true once the user has made a valid selection.
+### Handling Non-Combat Choices (combat == false):
+#### If combat == false, the function will check the user’s input. Depending on whether the input is "1", "2", or "3", it will print the corresponding outcome from the outcome array.
+#### After printing the outcome, chosen is set to true, meaning the user has made a valid selection.
+#### The randomEvent() function is called after a valid choice, which could represent some other in-game event that occurs after making a decision (though we don't have the definition of randomEvent() here).
+#### If the user enters an invalid input, the default case will print the fourth outcome (from outcome[3]), and the loop will continue.
 ```Swift
     var chosen = false
     
@@ -92,11 +102,3 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
     }
 }
 ```
-### User Input Loop
-#### The while !chosen loop ensures that the program keeps asking for input until the user selects a valid choice. readLine() is used to capture user input as a string.
-#### The variable chosen is initially set to false and will be set to true once the user has made a valid selection.
-### Handling Non-Combat Choices (combat == false):
-#### If combat == false, the function will check the user’s input. Depending on whether the input is "1", "2", or "3", it will print the corresponding outcome from the outcome array.
-#### After printing the outcome, chosen is set to true, meaning the user has made a valid selection.
-#### The randomEvent() function is called after a valid choice, which could represent some other in-game event that occurs after making a decision (though we don't have the definition of randomEvent() here).
-#### If the user enters an invalid input, the default case will print the fourth outcome (from outcome[3]), and the loop will continue.
