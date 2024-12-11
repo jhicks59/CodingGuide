@@ -17,4 +17,63 @@ func greeting(person: String) -> String {
 
 print(greeting(person: "Jeremiah"))
 ```
-#### When called with defined parameters and printed the string "Hello Jeremiah! How are you today?" will display
+#### When called with defined parameters and printed the string "Hello Jeremiah! How are you today?" will display.
+#
+```Swift
+func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
+    for line in (introPrompt){
+        print (line)
+    }
+    
+    for line in (choices){
+        print (line)
+    
+    }
+    var chosen = false
+    
+    
+    while !chosen {
+        if let input = readLine(){
+            if !combat {
+                switch input {
+                case "1":
+                    print (outcome[0])
+                    chosen = true
+                    randomEvent()
+                case "2":
+                    print (outcome[1])
+                    chosen  = true
+                    randomEvent()
+                case "3":
+                    print (outcome[2])
+                    chosen  = true
+                    randomEvent()
+                default:
+                    print (outcome[3])
+                }
+            }
+            if combat {
+                switch input {
+                case "1":
+                    print (combatChoices[0])
+                    chosen = true
+                case "2":
+                    print (combatChoices[1])
+                    chosen  = true
+                case "3":
+                    print (combatChoices[2])
+                    chosen  = true
+                case "4":
+                    print (combatChoices[3])
+                    chosen = true
+                default:
+                    print (combatChoices[4])
+                }
+                
+            }
+        }
+    }
+}
+```
+####
+#
