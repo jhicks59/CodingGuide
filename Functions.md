@@ -106,3 +106,5 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
     }
 }
 ```
+#### The function continues to ask for input until the user provides a valid choice (either from the choices or combatChoices arrays). Once a valid choice is made, the appropriate message is printed, and the chosen flag is set to true, breaking the loop.
+#
