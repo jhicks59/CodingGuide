@@ -1,5 +1,5 @@
-# Functions
-## A group of statements that perform a task within specified parameters
+# Functions - A group of statements that perform a task within specified parameters
+## 
 ```Swift
 func openWelcome() -> String {
     return "Hello, welcome to my app!"
