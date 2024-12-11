@@ -90,5 +90,7 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
     }
 }
 ```
-####
+### User Input Loop
+#### The while !chosen loop ensures that the program keeps asking for input until the user selects a valid choice. readLine() is used to capture user input as a string.
+#### The variable chosen is initially set to false and will be set to true once the user has made a valid selection.
 #
