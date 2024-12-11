@@ -33,10 +33,11 @@ let myFavoriteMovieLengthInSeconds = 8820
 
 if myFavoriteMovieLengthInSeconds >= 8500  {
         if myFavoriteMovieLengthInSeconds == 8820 {
-                print("This may be my favoite movie")}
+                print("This movie is long")}
+} else if myFavoriteMovieLengthInSeconds <= 8499 {
+print("This movie may be the right length")
 } else {
-print("I hated that movie")
-}
+print("Is this even a movie?")
 ```
 
 ### Switch Statements
