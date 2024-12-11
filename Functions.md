@@ -19,7 +19,7 @@ print(greeting(person: "Jeremiah"))
 ```
 #### When called with defined parameters and printed the string "Hello Jeremiah! How are you today?" will display.
 #
-### A function named decision that handles a decision making process with multiple choices while supporting general outcomes and combat scenarios within a game
+## A function named decision that handles a decision making process with multiple choices while supporting general outcomes and combat scenarios within a game
 
 #### introPrompt: [String]: This is an array of strings that contains the introductory text or prompts that will be printed to the user.
 #### choices: [String]: This is an array of strings that contains the possible choices the user can make after the introduction.
@@ -30,7 +30,7 @@ print(greeting(person: "Jeremiah"))
 func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
 ```
 #
-### Display of intro prompt to set the scene for users
+## Display of intro prompt to set the scene for users
 #### This loop goes through each string in the introPrompt array and prints it to the console. This is likely some introductory text to set the scene for the user.
 ```Swift
     for line in (introPrompt){
