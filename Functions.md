@@ -19,8 +19,8 @@ print(greeting(person: "Jeremiah"))
 ```
 #### When called with defined parameters and printed the string "Hello Jeremiah! How are you today?" will display.
 #
-### A decision making function that handles a decision making process with multiple choices while supporting general outcomes and combat scenarios within a game
-#
+### A function named decision that handles a decision making process with multiple choices while supporting general outcomes and combat scenarios within a game
+
 #### introPrompt: [String]: This is an array of strings that contains the introductory text or prompts that will be printed to the user.
 #### choices: [String]: This is an array of strings that contains the possible choices the user can make after the introduction.
 #### outcome: [String]: This is an array of strings that contains the outcome for each choice (used when combat == false).
