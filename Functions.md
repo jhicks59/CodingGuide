@@ -20,21 +20,23 @@ print(greeting(person: "Jeremiah"))
 #### When called with defined parameters and printed the string "Hello Jeremiah! How are you today?" will display.
 #
 ### A decision making function that handles a decision making process with multiple choices while supporting general outcomes and combat scenarios within a game
-```Swift
-func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
-```
+#
 #### introPrompt: [String]: This is an array of strings that contains the introductory text or prompts that will be printed to the user.
 #### choices: [String]: This is an array of strings that contains the possible choices the user can make after the introduction.
 #### outcome: [String]: This is an array of strings that contains the outcome for each choice (used when combat == false).
 #### combatChoices: [String] = [""]: This is an array of strings that contains the options available during a combat scenario (defaults to an array with an empty string if not provided). It is used when combat == true.
 #### combat: Bool: This is a boolean flag that determines if the user is in a combat scenario. If combat == true, the choices relate to combat options; if combat == false, the choices are standard decisions.
 ```Swift
+func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
+```
+#
+### Display of intro prompt to set the scene for users
+#### This loop goes through each string in the introPrompt array and prints it to the console. This is likely some introductory text to set the scene for the user.
+```Swift
     for line in (introPrompt){
         print (line)
     }
 ```
-### Display of intro prompt to set the scene for users
-#### This loop goes through each string in the introPrompt array and prints it to the console. This is likely some introductory text to set the scene for the user.
 ```Swift
     for line in (choices){
         print (line)
