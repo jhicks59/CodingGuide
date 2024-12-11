@@ -23,7 +23,11 @@ print(greeting(person: "Jeremiah"))
 ```Swift
 func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
 ```
-#### test
+#### introPrompt: [String]: This is an array of strings that contains the introductory text or prompts that will be printed to the user.
+#### choices: [String]: This is an array of strings that contains the possible choices the user can make after the introduction.
+#### outcome: [String]: This is an array of strings that contains the outcome for each choice (used when combat == false).
+#### combatChoices: [String] = [""]: This is an array of strings that contains the options available during a combat scenario (defaults to an array with an empty string if not provided). It is used when combat == true.
+#### combat: Bool: This is a boolean flag that determines if the user is in a combat scenario. If combat == true, the choices relate to combat options; if combat == false, the choices are standard decisions.
 ```Swift
     for line in (introPrompt){
         print (line)
