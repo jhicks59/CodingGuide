@@ -55,7 +55,10 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
 #### After printing the outcome, chosen is set to true, meaning the user has made a valid selection.
 #### The randomEvent() function is called after a valid choice, which could represent some other in-game event that occurs after making a decision (though we don't have the definition of randomEvent() here).
 #### If the user enters an invalid input, the default case will print the fourth outcome (from outcome[3]), and the loop will continue.
-
+### Handling Combat Choices (combat == true):
+#### If combat == true, the function handles the input in a similar way, but the choices are taken from the combatChoices array.
+#### The options are "1", "2", "3", or "4". Depending on the user's choice, the corresponding combat action is printed.
+#### If the input is invalid, the default case prints the fifth option from combatChoices[4] (likely a message indicating an invalid input or some kind of error).
 ```Swift
     var chosen = false
     
