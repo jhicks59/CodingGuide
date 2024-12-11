@@ -19,12 +19,16 @@ print(greeting(person: "Jeremiah"))
 ```
 #### When called with defined parameters and printed the string "Hello Jeremiah! How are you today?" will display.
 #
+### A decision making function that handles a decision making process with multiple choices while supporting general outcomes and combat scenarios within a game
 ```Swift
 func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
+```
+#### test
+```Swift
     for line in (introPrompt){
         print (line)
     }
-    
+
     for line in (choices){
         print (line)
     
