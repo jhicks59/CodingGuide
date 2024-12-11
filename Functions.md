@@ -32,11 +32,18 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
     for line in (introPrompt){
         print (line)
     }
-
+```
+### Display of intro prompt to set the scene for users
+#### This loop goes through each string in the introPrompt array and prints it to the console. This is likely some introductory text to set the scene for the user.
+```Swift
     for line in (choices){
         print (line)
     
     }
+```
+### Displays choices
+#### Similarly, this loop prints out each string in the choices array. These strings represent the available options for the user to choose from.
+```Swift
     var chosen = false
     
     
