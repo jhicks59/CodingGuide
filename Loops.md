@@ -81,7 +81,7 @@ while countDown2 >= 0 {
 ### exiting multiple loops - the process of breaking a nested loops inner and outer loop simultaneously.
 ```Swift
 outerLoop: for i in 1...10 {
-    for j inn 1..10 {
+    for j in 1...10 {
         let product = i * j
         print("\(i) * \(j) is \(product)")
 
