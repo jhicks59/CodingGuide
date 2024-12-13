@@ -65,13 +65,30 @@ while countDown >= 0 {
 print("Blast Off!")
 
 // accelerated countdown
-while countDown >= 0 {
-    print(countDown)
+var countDown2
 
-    if countDown == 4 {
+while countDown2 >= 0 {
+    print(countDown2)
+
+    if countDown2 == 4 {
         print("I'm bored. Let's go now!")
         break
     }
-    countDown -= 1
+    countDown2 -= 1
+}
+```
+#
+### exiting multiple loops - the process of breaking a nested loops inner and outer loop simultaneously.
+```Swift
+outerLoop: for i in 1...10 {
+    for j inn 1..10 {
+        let product = i * j
+        print("\(i) * \(j) is \(product)")
+
+        if product == 50 {
+            print("It's a bullseye!")
+            break outerLoop
+        }
+    }
 }
 ```
