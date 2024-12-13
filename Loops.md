@@ -1,5 +1,6 @@
 # Loops - runs a block of code repeatedly until a set condition becomes false
-### For-in Loop - used to iterate over a sequence (like a range, array, dictionary, or string).
+### For-in Loop - used to iterate over a sequence (like a range, array, dictionary, or string). Assigns each item within the loop a temporary constant
+#### if the temporary constant isn't needed, use an underscore instead
 ##### Syntax
 ```Swift
 for item in sequence {
