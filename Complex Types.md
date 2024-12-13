@@ -1,4 +1,4 @@
-# Collections
+ Collections
 ## Arrays - collections of data stored in a single named group
 ##### best used when data stored has duplicates, or the order of the data matters
 ```Swift
