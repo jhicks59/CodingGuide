@@ -64,7 +64,8 @@ while countDown >= 0 {
 }
 
 print("Blast Off!")
-##
+```
+```Swift
 // accelerated countdown using loop break
 var countDown2
 
