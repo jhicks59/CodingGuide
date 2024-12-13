@@ -96,11 +96,26 @@ outerLoop: for i in 1...10 {
 ```
 #
 ### Skipping items in a loop using the `continue` keyword
+##### prints all even number in a range of number from 1 to 20
 ```Swift
 for i in 1...20 {
 if i % 2 ==1 {
         continue
     }
     print(i)
+}
+```
+#
+### Infinite loops - never ending loops
+```Swift
+var counter = 0
+
+while true {
+    print(counter)
+    counter += 1
+    
+    if counter == 10{
+        break
+    }
 }
 ```
