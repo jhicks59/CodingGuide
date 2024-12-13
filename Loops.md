@@ -31,4 +31,15 @@ while number <= 20 {
 
 print("Ready or not, here I come!")
 ```
+#
+### repeat loop - similar to while loops, but the conditon is writtin at the end so that the code runs atleast once before checking the condition.
+```Swift
+var number = 1
 
+repeat {
+    print(number)
+    number += 1
+} while number <= 20
+
+print("Ready or not, Here I come!)
+```
