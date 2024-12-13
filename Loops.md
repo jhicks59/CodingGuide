@@ -26,7 +26,7 @@ while condition {
 ```Swift
 var number = 1
 
-while number <= 20 {
+while number <= 10 {
     print(number)
     number += 1
 }
@@ -47,7 +47,31 @@ var number = 1
 repeat {
     print(number)
     number += 1
-} while number <= 20
+} while number <= 10
 
-print("Ready or not, Here I come!)
+print("Ready or not, Here I come!")
+```
+#
+### exiting loops - exit a loop using the break keyword
+```Swift
+// normal countdown
+var countDown = 10
+
+while countDown >= 0 {
+    print(countDown)
+    countDown -= 1
+}
+
+print("Blast Off!")
+
+// accelerated countdown
+while countDown >= 0 {
+    print(countDown)
+
+    if countDown == 4 {
+        print("I'm bored. Let's go now!")
+        break
+    }
+    countDown -= 1
+}
 ```
