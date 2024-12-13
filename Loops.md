@@ -1,4 +1,4 @@
-# Loops - instructions in code that helps to write dynamic and clean code while repeating repetitive tasks
+# Loops - runs a block of code repeatedly until a set condition becomes false
 ### for-in Loop - used to iterate over a sequence (like a range, array, dictionary, or string).
 ```Swift
 for item in sequence {
