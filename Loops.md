@@ -1,5 +1,5 @@
 # Loops - runs a block of code repeatedly until a set condition becomes false
-### for-in Loop - used to iterate over a sequence (like a range, array, dictionary, or string).
+### For-in Loop - used to iterate over a sequence (like a range, array, dictionary, or string).
 ##### Syntax
 ```Swift
 for item in sequence {
@@ -15,7 +15,7 @@ for album in albums {
 }
 ```
 #
-### while Loop - repeats as long as a condition is true. Used when the number of iterations is not predetermined.
+### While Loop - repeats as long as a condition is true. Used when the number of iterations is not predetermined.
 ##### Syntax
 ```Swift
 while condition {
@@ -34,7 +34,7 @@ while number <= 10 {
 print("Ready or not, here I come!")
 ```
 #
-### repeat loop - similar to while loops, but the conditon is writtin at the end so that the code runs atleast once before checking the condition.
+### Repeat loop - similar to while loops, but the conditon is writtin at the end so that the code runs atleast once before checking the condition.
 ##### Syntax
 ```Swift
 repeat {
@@ -53,7 +53,7 @@ repeat {
 print("Ready or not, Here I come!")
 ```
 #
-### exiting loops - exit a loop using the `break` keyword
+### Exiting loops - exit a loop using the `break` keyword
 ```Swift
 // normal countdown
 var countDown = 10
@@ -80,7 +80,7 @@ while countDown2 >= 0 {
 }
 ```
 #
-### exiting multiple loops - the process of breaking a nested loops inner and outer loop simultaneously.
+### Exiting multiple loops - the process of breaking a nested loops inner and outer loop simultaneously.
 ```Swift
 outerLoop: for i in 1...10 {
     for j in 1...10 {
@@ -95,4 +95,12 @@ outerLoop: for i in 1...10 {
 }
 ```
 #
-### skipping items in a loop using the `continue` keyword
+### Skipping items in a loop using the `continue` keyword
+```Swift
+for i in 1...20 {
+if i % 2 ==1 {
+        continue
+    }
+    print(i)
+}
+```
