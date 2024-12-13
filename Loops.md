@@ -6,7 +6,7 @@ for item in sequence {
     // Code to execute for each item
 }
   ```
-### Example
+##### Example
 ```Swift
 let albums = ["4", "Beyoncè", "Lemonade", "Renaissance"]
 
@@ -22,7 +22,7 @@ while condition {
     // Code to execute while the condition is true
 }
 ```
-### Example
+##### Example
 ```Swift
 var number = 1
 
@@ -41,6 +41,7 @@ repeat {
     // some code to execute atleast once
 } while // condition
 ```
+##### Example
 ```Swift
 var number = 1
 
