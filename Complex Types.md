@@ -21,7 +21,7 @@ print(colors)
 print(colors2)
 ```
 #
-## Tuples - stores several value together within a single value but are fixed in size and the types cannot be changed once created
+## Tuples - collection of unique values within a single value but are fixed in size and the types cannot be changed once created
 ##### best used for precise date such as a location or name
 ```Swift
 var name = (first: "Taylor", last: "Swift")
