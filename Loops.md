@@ -107,6 +107,7 @@ if i % 2 ==1 {
 ```
 #
 ### Infinite loops - never ending loops
+##### for this loop to be infinite the if condition will need to be removed
 ```Swift
 var counter = 0
 
