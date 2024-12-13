@@ -1,4 +1,4 @@
-# Complex Types
+# Collections
 ## Arrays - collections of data stored in a single named group
 ##### best used when data stored has duplicates, or the order of the data matters
 ```Swift
@@ -36,5 +36,6 @@ let heights = [
   "Drake": 1.83,
   "Kendrick": 1.65
 ]
-print(heights["Drake"])
+print(heights["Drake", default: 0.0])
+print(heights["Kendrick"] ?? "Unknown")
 ```
