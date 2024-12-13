@@ -53,7 +53,7 @@ repeat {
 print("Ready or not, Here I come!")
 ```
 #
-### exiting loops - exit a loop using the break keyword
+### exiting loops - exit a loop using the **break** keyword
 ```Swift
 // normal countdown
 var countDown = 10
@@ -94,3 +94,5 @@ outerLoop: for i in 1...10 {
     }
 }
 ```
+#
+### skipping items in a loop using the **continue** keyword
