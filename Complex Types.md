@@ -17,6 +17,8 @@ print(beatles[1])
 ```Swift
 let colors = Set(["red", "blue", "green"])
 let colors2 = Set(["red", "blue", "green", "red", "blue"])
+print(colors)
+print(colors2)
 ```
 #
 ## Tuples - stores several value together within a single value but are fixed in size and the types cannot be changed once created
@@ -25,4 +27,14 @@ let colors2 = Set(["red", "blue", "green", "red", "blue"])
 var name = (first: "Taylor", last: "Swift")
 print(name.0)
 print(name.last)
+```
+#
+## Dicitonaries - collection of data stored with any data type instead of integer positioning like arrays
+```Swift
+let heights = [
+  "Beyoncè": 1.68,
+  "Drake": 1.83,
+  "Kendrick": 1.65
+]
+print(heights["Drake"])
 ```
