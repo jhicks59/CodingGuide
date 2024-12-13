@@ -64,8 +64,8 @@ while countDown >= 0 {
 }
 
 print("Blast Off!")
-
-// accelerated countdown
+##
+// accelerated countdown using loop break
 var countDown2
 
 while countDown2 >= 0 {
