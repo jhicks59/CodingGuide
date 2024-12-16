@@ -39,3 +39,13 @@ let heights = [
 print(heights["Drake", default: 0.0])
 print(heights["Kendrick"] ?? "Unknown")
 ```
+#
+creating empty collections
+## Empty dictionary syntax
+```Swift
+// Creates empty dictionary using strings for keys and values
+var teams = [String: String]()
+
+// adds item to dictionary
+teams["Lyle"]= "Blue"
+```
