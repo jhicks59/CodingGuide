@@ -1,4 +1,4 @@
- Collections
+# Collections
 ## Arrays - collections of data stored in a single named group
 ##### best used when data stored has duplicates, or the order of the data matters
 ```Swift
@@ -40,7 +40,7 @@ print(heights["Drake", default: 0.0])
 print(heights["Kendrick"] ?? "Unknown")
 ```
 #
-creating empty collections
+# creating empty collections
 ## Empty dictionary syntax
 ```Swift
 // Creates empty dictionary using strings for keys and values
