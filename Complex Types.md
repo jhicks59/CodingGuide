@@ -49,3 +49,15 @@ var teams = [String: String]()
 // adds item to dictionary
 teams["Lyle"]= "Blue"
 ```
+#
+Empty array syntax
+```Swift
+// Creates an empty array of integers
+var results = [Int]()
+```
+#
+Empty set syntax
+```Swift
+Var words = Set<String>()
+var numbers = Set<Int>()
+```
