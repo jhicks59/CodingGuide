@@ -29,7 +29,7 @@ print(name.0)
 print(name.last)
 ```
 #
-## Dicitonaries - collection of data that is accessed using any data type instead of integer positioning like arrays
+### Dicitonaries - collection of data that is accessed using any data type instead of integer positioning like arrays
 ```Swift
 let heights = [
   "Beyoncè": 1.68,
