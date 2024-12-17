@@ -30,7 +30,7 @@ print(greeting(person: "Jeremiah"))
 func decision( introPrompt: [String] , choices: [String], outcome: [String], combatChoices: [String] = [""], combat: Bool ){
 ```
 #
-## Display of intro prompt to set the scene for users
+### Display of intro prompt to set the scene for users
 #### This loop goes through each string in the introPrompt array and prints it to the console. This is likely some introductory text to set the scene for the user.
 ```Swift
     for line in (introPrompt){
@@ -38,7 +38,7 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
     }
 ```
 #
-## Displays choices
+### Displays choices
 #### Similarly, this loop prints out each string in the choices array. These strings represent the available options for the user to choose from.
 ```Swift
     for line in (choices){
@@ -47,7 +47,7 @@ func decision( introPrompt: [String] , choices: [String], outcome: [String], com
     }
 ```
 #
-## User Input Loop
+### User Input Loop
 #### The while !chosen loop ensures that the program keeps asking for input until the user selects a valid choice. readLine() is used to capture user input as a string.
 #### The variable chosen is initially set to false and will be set to true once the user has made a valid selection.
 ### Handling Non-Combat Choices (combat == false):
